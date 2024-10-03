@@ -1,0 +1,422 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="font.css">
+</head>
+
+<body class="font-popins">
+    <nav
+        class="z-20 top-0  px-[100px] pt-[46px] max-lg:px-12 max-md:px-6 max-md:py-8 min-4xxl:max-w-[1720px] min-4xxl:mx-auto min-4xxl:px-0">
+        <div class=" flex flex-wrap items-center justify-between">
+            <a href="https://flowbite.com/" class="flex items-center">
+                <img src="./images/logo.png"
+                    class="h-[60px] w-[236px] max-sm:w-40 max-sm:object-fill max-sm:h-auto object-cover"
+                    alt="Flowbite Logo">
+            </a>
+            <div class="flex space-x-[54px] max-lg:space-x-4 max-md:space-x-8 max-md:items-center">
+                <div class="items-center flex max-md:hidden" id="navbar-sticky">
+                    <ul class="flex space-x-[65px] max-lg:space-x-4">
+                        <li>
+                            <a href="#"
+                                class="font-medium text-[22px] hover:text-gray1 active:text-gray1 focus:text-gray1 transition ease-in-out delay-100 text-black1"
+                                aria-current="page">CATALOGUE</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="font-medium text-[22px] hover:text-gray1 active:text-gray1 focus:text-gray1 transition ease-in-out delay-100 text-black1">FASHION</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="font-medium text-[22px] hover:text-gray1 active:text-gray1 focus:text-gray1 transition ease-in-out delay-100 text-black1">FAVOURITE</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="font-medium text-[22px] hover:text-gray1 active:text-gray1 focus:text-gray1 transition ease-in-out delay-100 text-black1">LIFESTYLE</a>
+                        </li>
+                    </ul>
+                </div>
+                <button type="button"
+                    class="text-white bg-black w-[134px] h-[62px] text-2xl font-medium text-white2 rounded-[7px] hover:bg-inherit hover:border-solid hover:border-2 hover:border-gray4 hover:text-black transition ease-in-out delay-100 max-sm:hidden">SIGN
+                    UP</button>
+
+                <button onclick="showHtmlDiv()" data-collapse-toggle="navbar-sticky" type="button"
+                    class="items-center p-2 w-14 h-10 max-sm:w-10 justify-center text-sm text-gray-500 rounded-lg hidden max-md:flex hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <!-- <span class="sr-only">Open main menu</span> -->
+                    <svg class="w-16 h-16" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- MObile Nav menu  -->
+        <div class="hidden pt-8" id="mobile-menu">
+            <ul class="flex-col max-md:space-y-10">
+                <li>
+                    <a href="#"
+                        class="text-black1 font-medium text-[22px] hover:text-gray1 active:text-gray1 focus:text-gray1 transition ease-in-out delay-100"
+                        aria-current="page">CATALOGUE</a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="text-black1 font-medium text-[22px] hover:text-gray1 active:text-gray1 focus:text-gray1 transition ease-in-out delay-100">FASHION</a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="text-black1 font-medium text-[22px] hover:text-gray1 active:text-gray1 focus:text-gray1 transition ease-in-out delay-100">FAVOURITE</a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="text-black1 font-medium text-[22px] hover:text-gray1 active:text-gray1 focus:text-gray1 transition ease-in-out delay-100">LIFESTYLE</a>
+                </li>
+
+                <button type="button"
+                    class="text-white bg-black w-[134px] h-[62px] text-2xl max-sm:text-xl font-medium text-white2 rounded-[7px] hover:bg-inherit hover:border-solid hover:border-2 hover:border-gray4 hover:text-black transition ease-in-out delay-100">SIGN
+                    UP</button>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero SEction Start  -->
+        <section
+            class="px-[100px] max-lg:px-12 max-md:px-6 mt-14 max-sm:mt-4 min-4xxl:max-w-[1720px] min-4xxl:mx-auto min-4xxl:px-0">
+            <div
+                class="bg-[url('images/Rectangle.png')] bg-center bg-cover bg-no-repeat rounded-[59px] max-md:rounded-[32px]">
+                <div
+                    class="columns-xl ps-[82px] max-sm:ps-4 pt-[68px] max-sm:py-8 max-4xl:pe-[81px] max-2xl:pe-16 max-sm:pe-4 max-md:gap-12 max-md:flex max-md:flex-col">
+                    <div class="max-sm:order-last">
+                        <h1
+                            class="font-black text-8xl max-sm:text-5xl text-black  w-[474px] max-sm:w-[250px] leading-[120px] max-sm:leading-[65px]">
+                            <span
+                                class="relative z-20 before:content-[''] before:absolute before:h-[112px]  before:w-[465px] max-sm:before:w-[260px] max-sm:before:h-[64px] before:bg-white before:-z-10 before:-rotate-2 before:-ms-9 max-sm:before:-ms-2">
+                                LET’S
+                            </span>
+                            EXPLORE
+                            <span
+                                class="relative z-20 after:content-[''] after:absolute after:h-[117px]  after:w-[495px] max-sm:after:w-[260px] max-sm:after:h-[64px] after:bg-orange1 after:-z-10 after:-rotate-2 after:-left-[25px] max-sm:after:-left-[8px]">
+                                UNIQUE
+                            </span>
+                            CLOTHES.
+                        </h1>
+                        <p class="text-3xl max-sm:text-base font-normal text-black2 mt-4">Live for Influential and
+                            Innovative
+                            fashion!</p>
+                        <button type="button"
+                            class="text-white bg-black w-[221px] max-sm:w-full h-[82px] text-3xl  font-medium  rounded-[10px] transition ease-in-out delay-100 mt-8">Shop
+                            Now</button>
+                    </div>
+                    <figure class=" h-[682px] max-sm:h-auto relative max-sm:order-first">
+                        <img src="images/hero-img.png" alt="" class="w-[871px] h-full ">
+                        <img src="images/Star.png" alt="" class="absolute top-0 max-sm:hidden">
+                        <img src="images/Star.png" alt="" class="absolute top-[40px] right-[100px] max-sm:hidden">
+                        <img src="images/Star.png" alt="" class="absolute bottom-10 max-sm:hidden">
+                        <img src="images/Star.png" alt="" class="absolute right-2 bottom-16 max-sm:hidden">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <!-- END  -->
+
+        <!-- Brand Section Start  -->
+        <section class="bg-orange1 mt-16 max-sm:mt-6">
+            <div
+                class=" py-[60px] flex flex-wrap items-center justify-between px-[100px] max-lg:px-12 max-md:px-6 gap-3">
+                <figure class="max-md:w-1/4 max-sm:w-2/5"><img src="images/brand1.png" alt=""></figure>
+                <figure class="max-md:w-1/4 max-sm:w-2/5"><img src="images/brand2.png" alt=""></figure>
+                <figure class="max-md:w-1/4 max-sm:w-2/5"><img src="images/brand3.png" alt=""></figure>
+                <figure class="max-md:w-1/4 max-sm:w-2/5"><img src="images/brand4.png" alt=""></figure>
+                <figure class="max-md:w-1/4 max-sm:w-2/5"><img src="images/brand5.png" alt=""></figure>
+                <figure class="max-md:w-1/4 max-sm:w-2/5"><img src="images/brand6.png" alt=""></figure>
+            </div>
+        </section>
+        <!-- END  -->
+
+        <!-- New Arrivals Section Start  -->
+        <section
+            class="px-[100px] max-lg:px-12 max-md:px-6 mt-16 max-md:mt-14 min-4xxl:max-w-[1720px] min-4xxl:mx-auto min-4xxl:px-0">
+            <h2
+                class="relative font-black text-5xl max-md:text-3xl after:content-[url('images/Vector.png')] after:absolute z-20 after:-z-10 inline-block after:-right-2 max-sm:after:-right-4 after:-bottom-4">
+                NEW ARRIVALS</h2>
+            <div class="grid grid-cols-1 sm:grid md:grid-cols-3 gap-x-[90px] max-md:gap-8 mt-24 max-md:mt-14">
+                <div class="max-w-[484px]">
+                    <a href="#">
+                        <img class="rounded-[20px]" src="images/arrival-1.png" alt="Skyscrapers" />
+                    </a>
+                    <div class="flex items-center justify-between mt-7">
+                        <div class=" ">
+                            <h5
+                                class="font-medium leading-[50px] text-[32px] max-md:text-2xl max-md:text-2xl text-black3">
+                                Hoodies &
+                                Sweetshirt</h5>
+                            <p class="text-2xl text-gray">Explore Now!</p>
+                        </div>
+                        <figure class=" ">
+                            <img src="images/Arrow 1.png" alt="" class="max-w-8">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="max-w-[484px]">
+                    <a href="#">
+                        <img class="rounded-[20px]" src="images/arrival-2.png" alt="Skyscrapers" />
+                    </a>
+                    <div class="flex items-center justify-between mt-7">
+                        <div class=" ">
+                            <h5 class="font-medium leading-[50px] text-[32px] max-md:text-2xl text-black3">Coats &
+                                Parkas</h5>
+                            <p class="text-2xl text-gray">Explore Now!</p>
+                        </div>
+                        <figure class=" ">
+                            <img src="images/Arrow 1.png" alt="" class="max-w-8">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="max-w-[484px]">
+                    <a href="#">
+                        <img class="rounded-[20px]" src="images/arrival-3.png" alt="Skyscrapers" />
+                    </a>
+                    <div class="flex items-center justify-between mt-7">
+                        <div class=" ">
+                            <h5 class="font-medium leading-[50px] text-[32px] max-md:text-2xl text-black3">Tees &
+                                T-Shirt</h5>
+                            <p class="text-2xl text-gray">Explore Now!</p>
+                        </div>
+                        <figure class=" ">
+                            <img src="images/Arrow 1.png" alt="" class="max-w-8">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END  -->
+
+        <!-- Sale Now Section Start  -->
+        <section class="mt-[190px] max-md:mt-16 12 bg-custom-gradient">
+            <div
+                class="grid grid-cols-2 max-md:grid-cols-2 max-sm:grid-cols-1  max-md:flex-col min-4xxl:max-w-[1720px] min-4xxl:mx-auto">
+                <div class="relative">
+                    <img class="h-full object-cover" src="images/sale-now.png" alt="">
+                    <img src="images/Star2.png" alt="" class="absolute top-[10rem] left-[5rem] max-xmd:hidden">
+                    <img src="images/Star2.png" alt="" class="absolute top-[80px] right-[100px] max-xmd:hidden">
+                    <img src="images/Star2.png" alt="" class="absolute bottom-[20rem] left-[8rem] max-xmd:hidden">
+                    <img src="images/Star2.png" alt="" class="absolute right-[5rem] bottom-[12rem] max-xmd:hidden">
+                </div>
+                <div class="flex flex-col justify-center max-sm:items-center ">
+                    <div class="max-w-[652px] max-md:w-[320px] py-24 max-md:py-6">
+                        <h2
+                            class="text-[111px] max-lg:text-7xl max-md:text-4xl leading-[137px] max-lg:leading-[137px] max-md:leading-[50px] font-black">
+                            <span
+                                class="relative z-20 before:content-[''] before:absolute before:h-[130px] max-md:before:h-full  before:w-full before:bg-white before:-z-10 before:-rotate-2 ">
+                                PAYDAY
+                            </span>
+                            SALENOW
+                        </h2>
+                        <p class="text-black4 text-4xl max-md:text-2xl leading-[52px] font-medium mt-8 max-md:mt-4">
+                            Spend minimal
+                            $100 get 30% off voucher code for your next purchase</p>
+                        <h3 class="text-4xl max-md:text-2xl font-bold mt-10 max-md:mt-4">1 June - 10 June 2021</h3>
+                        <p class="text-4xl max-md:text-2xl font-normal mt-2">*Terms & Conditions apply</p>
+                        <button type="button"
+                            class="text-white bg-black w-[265px] max-md:w-[180px] h-[95px] max-md:h-[75px] text-2xl  font-medium  rounded-[10px] transition ease-in-out delay-100 mt-8">Shop
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End  -->
+
+        <!-- Favourtie Section Start  -->
+        <section
+            class="px-[100px] max-lg:px-12 max-md:px-6 mt-[190px] max-md:mt-16 14 min-4xxl:max-w-[1720px] min-4xxl:mx-auto min-4xxl:px-0">
+            <h2
+                class="relative font-black text-5xl max-md:text-3xl after:content-[url('images/Vector.png')] after:absolute z-20 after:-z-10 inline-block after:-right-2 max-sm:after:-right-4 after:-bottom-4">
+                Young’s Favourite</h2>
+            <div class="grid grid-cols-1 sm:grid md:grid-cols-2 gap-x-[47px] max-md:gap-8 mt-24 max-md:mt-14">
+                <div class="">
+                    <a href="#">
+                        <img class="rounded-[20px]" src="images/favourti1.png" alt="Skyscrapers" />
+                    </a>
+                    <div class="flex items-center justify-between mt-7">
+                        <div class=" ">
+                            <h5
+                                class="font-medium leading-[50px] text-[32px] max-md:text-2xl max-md:text-2xl text-black3">
+                                Trending on
+                                instagramt</h5>
+                            <p class="text-2xl text-gray">Explore Now!</p>
+                        </div>
+                        <figure class=" ">
+                            <img src="images/Arrow 1.png" alt="" class="max-w-8">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="">
+                    <a href="#">
+                        <img class="rounded-[20px]" src="images/favourti2.png" alt="Skyscrapers" />
+                    </a>
+                    <div class="flex items-center justify-between mt-7">
+                        <div class=" ">
+                            <h5 class="font-medium leading-[50px] text-[32px] max-md:text-2xl text-black3">All Under $40
+                            </h5>
+                            <p class="text-2xl text-gray">Explore Now!</p>
+                        </div>
+                        <figure class=" ">
+                            <img src="images/Arrow 1.png" alt="" class="max-w-8">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END  -->
+
+        <!-- Voucher SEction Start  -->
+        <section class="px-[100px] max-lg:px-12 max-md:px-6 my-[220px] max-md:my-16">
+            <div
+                class="flex flex-row max-xmd:flex-col items-center max-w-[1483px] mx-auto justify-between max-3xxl:px-20 max-md:px-0">
+                <div class="max-xmd:w-full max-w-xl py-8 max-xmd:text-center">
+                    <h1 class="font-black text-5xl leading-[72px] max-sm:text-3xl">
+                        DOWNLOAD APP & GET THE VOUCHER!
+                    </h1>
+                    <p class="font-medium text-gray1 text-2xl max-w-md max-xmd:max-w-full mt-10">Get 30% off for first
+                        transaction using
+                        Rondovision mobile app for now.</p>
+                    <div class="flex gap-5 mt-16 max-xmd:justify-center">
+                        <a href="#">
+                            <img src="images/appstorebtn.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Gpaybtn.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="max-xmd:w-full max-w-xl relative z-20 flex items-center justify-center">
+                    <img src="images/Mobileapp.png" class="">
+
+                    <img src="images/Ellipsedot1.png" alt=""
+                        class="absolute -z-10 -right-8 top-28 w-[50px] h-[50px] max-sm:hidden">
+                    <img src="images/Ellipsedot2.png" alt=""
+                        class="absolute -z-10 -left-[3rem] top-[10rem] w-[22px] h-[24px] object-cover max-sm:hidden">
+                    <img src="images/Ellipsedot2.png" alt=""
+                        class="absolute -z-10 w-[17px] h-[17px] -right-10 bottom-[10rem] max-sm:hidden">
+                    <img src="images/Ellipsedot1.png" alt=""
+                        class="absolute -z-10 -left-16 bottom-28 w-[34px] h-[34px] max-sm:hidden">
+
+                    <span
+                        class="border-2 border-[#EFECEB] w-[637px] h-[629px] rounded-full absolute -z-10 max-lg:hidden"></span>
+                    <span
+                        class="border-2 border-[#EFECEB] w-[537px] h-[530px] rounded-full absolute -z-10 max-lg:hidden"></span>
+                    <span
+                        class="border-2 border-[#EFECEB] w-[440px] h-[434px] rounded-full absolute -z-10 max-lg:hidden"></span>
+                </div>
+            </div>
+        </section>
+        <!-- END  -->
+
+        <!-- SHOPPING COMMUNITY SEction Start  -->
+        <section class="bg-orange2 py-36 max-md:py-16">
+            <h2
+                class="font-black text-[55px] max-xmd:text-3xl leading-[70px] max-xmd:leading-10 text-white w-3/4 max-lg:w-full max-lg:px-6 text-center mx-auto max-sm:text-lg">
+                JOIN SHOPPING COMMUNITY
+                TO GET MONTHLY PROMO</h2>
+            <p
+                class="max-sm:text-base max-sm:max-w-xs max-sm:py-3 font-normal text-3xl text-white1 text-center pt-9 pb-12 max-xmd:max-w-lg max-xmd:mx-auto ">
+                Type your email down below and be young wild
+                generation</p>
+
+            <form>
+                <div
+                    class="max-sm:max-w-xs max-sm:bg-transparent max-xmd:max-w-lg mx-auto relative bg-white max-w-xl flex flex-col md:flex-row items-center justify-center py-2 max-sm:py-0 px-2 rounded-[10px]">
+
+                    <input id="search-bar" placeholder="Add your email here" name="q"
+                        class="px-6 py-2 w-full rounded-md flex-1 outline-none bg-white dark:bg-gray-50" required="">
+                    <button type="submit"
+                        class="w-[160px] max-sm:w-28 max-sm:h-10 max-sm:mt-3 h-[67px] bg-black text-white  relative rounded-lg ">
+                        <span class="flex items-center ">
+                            <span class="text-3xl max-sm:text-base font-medium whitespace-nowrap truncate mx-auto">
+                                SEND
+                            </span>
+                        </span>
+                    </button>
+                </div>
+            </form>
+        </section>
+        <!-- END  -->
+
+    </main>
+
+    <footer class="bg-black px-[100px] max-lg:px-12 max-md:px-6 pb-36 pt-28 font-roboto">
+        <div class="grid grid-cols-2 max-md:grid-cols-1 max-md:gap-12">
+            <div class="max-w-sm">
+                <h3 class="font-black text-white text-[40px] mb-8">FASHION</h3>
+                <p class="font-normal text-gray3 leading-10 text-2xl font-roboto">Complete your style with awesome
+                    clothes from
+                    us.</p>
+                <!-- social link  -->
+                <ul class="flex space-x-3.5 max-sm:space-x-2 mt-8">
+                    <li><a href="#"
+                            class="flex items-center justify-center w-[52px] h-[52px] rounded-[15px] bg-orange1"><img
+                                src="images/facebook.svg" alt=""></a></li>
+                    <li><a href="#"
+                            class="flex items-center justify-center w-[52px] h-[52px] rounded-[15px] bg-orange1"><img
+                                src="images/instagram.svg" alt=""></a></li>
+                    <li><a href="#"
+                            class="flex items-center justify-center w-[52px] h-[52px] rounded-[15px] bg-orange1"><img
+                                src="images/twitter.svg" alt=""></a></li>
+                    <li><a href="#"
+                            class="flex items-center justify-center w-[52px] h-[52px] rounded-[15px] bg-orange1"><img
+                                src="images/linkedin.svg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="flex space-x-20 max-md:space-x-0 max-md:gap-10 flex-wrap">
+                <div class="max-md:w-1/3 max-sm:w-full">
+                    <ul class="flex flex-col space-y-8 ">
+                        <li>
+                            <h6 class="font-normal text-2xl text-gray4">Company</h6>
+                        </li>
+                        <li><a href="#" class="font-normal text-2xl text-gray3">About</a></li>
+                        <li><a href="#" class="font-normal text-2xl text-gray3">Contact us</a></li>
+                        <li><a href="#" class="font-normal text-2xl text-gray3">Support</a></li>
+                        <li><a href="#" class="font-normal text-2xl text-gray3">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="max-md:w-1/3 max-sm:w-full">
+                    <ul class="flex flex-col space-y-8">
+                        <li>
+                            <h6 class="font-normal text-2xl text-gray4">Quick Link</h6>
+                        </li>
+                        <li><a href="#" class="font-normal text-2xl text-gray3">Share Location</a></li>
+                        <li><a href="#" class="font-normal text-2xl text-gray3">Orders Tracking</a></li>
+                        <li><a href="#" class="font-normal text-2xl text-gray3">Size Guide</a></li>
+                        <li><a href="#" class="font-normal text-2xl text-gray3">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="max-md:w-1/2 max-sm:w-full">
+                    <ul class="flex flex-col space-y-8">
+                        <li>
+                            <h6 class="font-normal text-2xl text-gray4">Legal</h6>
+                        </li>
+                        <li><a href="#" class="font-normal text-2xl text-gray3">Terms & conditions</a></li>
+                        <li><a href="#" class="font-normal text-2xl text-gray3">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="./js/tailwind-config.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

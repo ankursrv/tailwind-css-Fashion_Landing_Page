@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: 'poppinsregular', 'sans-serif';
+    src: url('poppins-regular-webfont.woff2') format('woff2'),
+         url('poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoblack', 'sans-serif';
+    src: url('roboto-black-webfont.woff2') format('woff2'),
+         url('roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.hero{background-image: url('images/Rectangle.png'); height: 859px;} 
